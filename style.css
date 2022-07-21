@@ -1,63 +1,177 @@
 /* --------google font---------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /* --------common style------ */
-body
-{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 
 }
-.common-padding
-{ 
+
+.common-padding {
     display: flex;
     margin: 3% 10%;
 }
+
 /* -----------banner section-------- */
-.banner-container
-{
+.banner-container {
     background-color: #161616;
     border-radius: 15px;
 }
 
-.banner-content
-{
+.banner-content {
     width: 50%;
 }
-.banner-content h1, p, a
-{
-    color:white;
+
+.banner-content h1,
+p,
+a {
+    color: white;
     margin: 40px 100px;
-    
+
 }
-.banner-content h1
-{
+
+.banner-content h1 {
     font-size: 45px;
 }
-.banner-content p
-{
+
+.banner-content p {
     font-size: .9em;
     line-height: 1.8em;
 }
-.banner-content a
-{
+
+.banner-content a {
     text-decoration: none;
-    background-image: linear-gradient(to right,#00ffff,#f107ca);
+    background-image: linear-gradient(to right, #00ffff, #f107ca);
     padding: .8em 1.5em;
     border-radius: 6px;
 }
-.banner-content a:hover
-{
-    background-image: linear-gradient(to right,#eeff00,#62e7bb);
+
+.banner-content a:hover {
+    background-image: linear-gradient(to right, #eeff00, #62e7bb);
     color: #f80000;
 }
-.banner-img
-{
+
+.banner-img {
     width: 50%;
 }
-.banner-img img
-{
+
+.banner-img img {
     width: 100%;
-    padding: 5px  0;
+    padding: 5px 0;
+}
+
+/* ---------blog section--------- */
+.blog-section {
+    display: flex;
+    margin: 0 10%;
+}
+
+.sidebar {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    text-align: center;
+    margin: 50px;
+    display: block;
+
+}
+
+.common-btn {
+    width: 60%;
+    background-color: white;
+    color: #161616;
+    padding: 10px 0px;
+
+}
+
+.activ-btn {
+    width: 60%;
+    background-color: #ff0000;
+    color: rgb(250, 250, 250);
+    padding: 10px 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+
+}
+
+.blog-img {
+    width: 250px;
+    height: 342px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 5px;
+}
+
+button {
+    margin: 5px 10px;
+}
+
+.blog-img p {
+    color: #161616;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.fa-regular {
+    padding: 10px;
+}
+
+/* ----------footer------- */
+.footer {
+    height: 400px;
+    background-color: #161616;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 60px;
+    color: white;
+}
+
+.footer hr {
+    border: 1px solid gray;
+}
+
+.footer-container ul,a 
+{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-container ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+.social-links
+{
+    padding: 10px;
+    font-size:xx-large;
+
+}
+.social-links button:hover
+{
+    
+    font-size: 20px;
+    background-color: #161616;
+    color: white;
 }
